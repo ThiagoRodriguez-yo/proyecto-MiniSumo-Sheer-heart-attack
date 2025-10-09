@@ -89,3 +89,21 @@ Memorias:
 Contenido del paquete:
 - 1 Nodemcu ESP32 Wifi Bluetooth 2.4 de 38 Pines con USB-C
 
+-Driver de motores-
+Características:
+-Baja corriente en espera: ≦2 µA
+-Amplio rango de tensión de alimentación
+-Función de freno integrada
+-Protección contra apagado térmico
+-Límite de sobrecorriente y protección contra cortocircuitos
+-Encapsulado DIP8 sin plomo.
+
+-Resistencias-
+-Cantidad: 6
+-Valores: 3 resistencias de 1k y 3 resistencias de 2.2k
+
+-Capacitores-
+-Tipo de capacitores: Electrolitico y Marmol
+-Cantidad: 2 capacitores Electroliticos y 4 capacitores de Marmol
+-Valores Electroliticos: 470uf
+-Valores Marmol: 2 de 0.1uf y 2 de 10nf
