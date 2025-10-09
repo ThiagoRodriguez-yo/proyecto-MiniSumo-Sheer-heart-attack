@@ -32,6 +32,20 @@ Detalles técnicos:
 – Número de pines: 4 pines para conexión.
 – Ajuste de sensibilidad: Incluye potenciómetro para calibrar la sensibilidad del sensor.
 
+-Sensores de piso-
+Características:
+- Usando sensores de reflexión infrarroja TCRT5000
+- Distancia de reflexión de prueba: 1mm a 25mm
+- Limpio y 3, la salida del comparador, Onda de senal,
+- La capacidad de conducción es fuerte, por mas de 15 ma.
+- Con muchos potenciómetros de precisión ajustables para ajustar la sensibilidad
+- Voltaje de funcionamiento de 3,3 V a 5V
+- Forma de salida: salida de interruptor digital (0 y 1)
+- Tiene un agujero de perno fijo, instalación conveniente
+- Tablero pequeño tamaño de PCB: 3,2 cm x 1,4 cm
+- LM393, uso de comparador de amplio voltaje
+- Tamaño: 3,1×1,3 cm (aprox.)
+
 -Motores-
 Modelo: N30 500RPM
 Detalles tecnicos:
@@ -75,12 +89,12 @@ Detalles tecnicos:
 - 38 PINES
 - DIMENSIONES: 51 x 25 mm (Largo y Ancho)
 
-Seguridad:
+  -Seguridad-
 - Estándares IEEE 802.11: WFA, WPA/WPA2 y WAPI
-- 1024-bit OTP
+- 1,024-bit OTP
 - Aceleración Criptográfica por Hardware: AES, HASH (SHA-2), RSA, ECC, RNG
 
-Memorias:
+  -Memorias-
 - 448 KByte ROM
 - 520 KByte SRAM
 - 16 KByte SRAM in RTC
@@ -89,21 +103,70 @@ Memorias:
 Contenido del paquete:
 - 1 Nodemcu ESP32 Wifi Bluetooth 2.4 de 38 Pines con USB-C
 
--Driver de motores-
+  -Driver de motores-
 Características:
--Baja corriente en espera: ≦2 µA
--Amplio rango de tensión de alimentación
--Función de freno integrada
--Protección contra apagado térmico
--Límite de sobrecorriente y protección contra cortocircuitos
--Encapsulado DIP8 sin plomo.
+- Baja corriente en espera: ≦2 µA
+- Amplio rango de tensión de alimentación
+- Función de freno integrada
+- Protección contra apagado térmico
+- Límite de sobrecorriente y protección contra cortocircuitos
+- Encapsulado DIP8 sin plomo.
 
--Resistencias-
--Cantidad: 6
--Valores: 3 resistencias de 1k y 3 resistencias de 2.2k
+  -Resistencias-
+- Cantidad: 6
+- Valores: 3 resistencias de 1k y 3 resistencias de 2.2k
 
--Capacitores-
--Tipo de capacitores: Electrolitico y Marmol
--Cantidad: 2 capacitores Electroliticos y 4 capacitores de Marmol
--Valores Electroliticos: 470uf
--Valores Marmol: 2 de 0.1uf y 2 de 10nf
+  -Capacitores-
+- Tipo de capacitores: Electrolitico y Marmol
+- Cantidad: 2 capacitores Electroliticos y 4 capacitores de Marmol
+- Valores Electroliticos: 470uf
+- Valores Marmol: 2 de 0.1uf y 2 de 10nf
+
+  -Diseño del circuito-
+
+ESQ:
+<img width="447" height="415" alt="image" src="https://github.com/user-attachments/assets/7b1bcfb0-b401-43f2-87ed-046878b64392" />
+
+
+PCB:
+<img width="966" height="547" alt="image" src="https://github.com/user-attachments/assets/d0ca6cee-4373-461d-bb24-626054c4e288" />
+
+  -Descripcion del funcionamiento-
+- Detección de límites: El robot incorpora un sensor infrarrojo ubicado en la parte inferior del chasis, cuya función principal es identificar el borde de la superficie de combate (arena). Ante la detección de un cambio en el color o textura del suelo que indique el límite, el sistema activa una rutina de evasión para evitar que el robot lo cruce.
+
+- Localización del oponente: El robot está equipado con sensores de proximidad, infrarrojos frontales, que permiten detectar la presencia de un contrincante en su campo de acción. Una vez identificado un objetivo, el robot inicia una secuencia de ataque orientada a la intercepción directa.
+
+- Comportamiento ofensivo: El algoritmo de combate prioriza la ofensiva continua. El robot mantiene su trayectoria de ataque hasta que logra desplazar al oponente fuera de los límites del área de combate, momento en el cual se reinicia el ciclo de búsqueda de nuevos objetivos.
+
+  -Montaje-
+lijar la placa de cobre
+luego conseguir el sticker del pcb 
+acto siguiente planchar el sticker en la placa hasta ver que el tóner haya quedado perfectamente adherido a la placa
+luego bañar la placa en percloruro por varios minutos
+luego sacar la placa del percloruro después de revisar que no haya excedente de cobre
+lijar nuevamente para sacar el tóner excedente
+agujerear la placa luego de revisar que el cobre innecesario haya sido comido correctamente por el percloruro
+iniciar montaje de componentes electrónicos
+luego soldar cada componente a la placa (se recomienda usar el material de soldadura Flux) usar estaño para soldar (usar estaño 60% estaño 40% plomo)
+luego verificar que no haya cortos
+montaje terminado
+
+  -herramientas-
+un soldador de punta fina (de 60W)
+estaño (60% estaño 40% plomo)
+pinzas(de punta y alicate)
+flux
+chupa estaño y o cinta desoldante
+
+- precauciones: al manejar herramientas peligrosas en manos inexpertas recomendamos el uso de guantes de seguridad y delantal, aunque estos no son obligatorios
+
+-tipo de soldadura: 
+Soldadura con aleación de estaño-plomo  
+
+
+
+-Tareas de cada integrante-
+- Rodriguez Thiago: PCB, Esquematico
+- Elias Vazquez: Carroceria (3D)
+- Uriel Ramirez: Montaje de la placa y programacion
+
