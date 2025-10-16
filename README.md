@@ -129,7 +129,8 @@ ESQ:
 
 
 PCB:
-<img width="966" height="547" alt="image" src="https://github.com/user-attachments/assets/d0ca6cee-4373-461d-bb24-626054c4e288" />
+<img width="967" height="545" alt="image" src="https://github.com/user-attachments/assets/40261d22-bb49-43fc-9fd7-2158285aefb6" />
+
 
   -Descripcion del funcionamiento-
 - Detección de límites: El robot incorpora un sensor infrarrojo ubicado en la parte inferior del chasis, cuya función principal es identificar el borde de la superficie de combate (arena). Ante la detección de un cambio en el color o textura del suelo que indique el límite, el sistema activa una rutina de evasión para evitar que el robot lo cruce.
