@@ -179,4 +179,3 @@ TA6586:[TA6586.PDF](https://github.com/user-attachments/files/23097099/TA6586.PD
 - Elias Vazquez: Carroceria (3D)
 - Uriel Ramirez: Montaje de la placa y programacion
 
-[TA6586.PDF](https://github.com/user-attachments/files/23097079/TA6586.PDF)
