@@ -164,10 +164,19 @@ chupa estaño y o cinta desoldante
 -tipo de soldadura: 
 Soldadura con aleación de estaño-plomo  
 
+-Datasheet-
 
+AD32: [E3S-A.PDF](https://github.com/user-attachments/files/23096925/E3S-A.PDF)
+
+ESP32: [ESP32.PDF](https://github.com/user-attachments/files/23096990/ESP32.PDF)
+
+TCRT5000:[TCRT5000.PDF](https://github.com/user-attachments/files/23097029/TCRT5000.PDF)
+
+TA6586:[TA6586.PDF](https://github.com/user-attachments/files/23097099/TA6586.PDF)
 
 -Tareas de cada integrante-
 - Rodriguez Thiago: PCB, Esquematico
 - Elias Vazquez: Carroceria (3D)
 - Uriel Ramirez: Montaje de la placa y programacion
 
+[TA6586.PDF](https://github.com/user-attachments/files/23097079/TA6586.PDF)
