@@ -5,6 +5,7 @@ Este proyecto es de el robot Mini Sumo el cual esta diseñado con la finalidad d
 
  * Vazquez Elias
  * Rodriguez Thiago
+ * Uriel Ramirez
 
  --02/10/2025--
 
@@ -94,15 +95,6 @@ Detalles tecnicos:
 - 1,024-bit OTP
 - Aceleración Criptográfica por Hardware: AES, HASH (SHA-2), RSA, ECC, RNG
 
-  -Memorias-
-- 448 KByte ROM
-- 520 KByte SRAM
-- 16 KByte SRAM in RTC
-- QSPI Flash/SRAM, 4 Mbyte
-
-Contenido del paquete:
-- 1 Nodemcu ESP32 Wifi Bluetooth 2.4 de 38 Pines con USB-C
-
   -Driver de motores-
 Características:
 - Baja corriente en espera: ≦2 µA
@@ -125,11 +117,13 @@ Características:
   -Diseño del circuito-
 
 ESQ:
-<img width="447" height="415" alt="image" src="https://github.com/user-attachments/assets/7b1bcfb0-b401-43f2-87ed-046878b64392" />
+<img width="301" height="278" alt="image" src="https://github.com/user-attachments/assets/155ef281-f9eb-4c68-abff-61a7057bf248" />
+
 
 
 PCB:
-<img width="967" height="545" alt="image" src="https://github.com/user-attachments/assets/40261d22-bb49-43fc-9fd7-2158285aefb6" />
+<img width="960" height="538" alt="image" src="https://github.com/user-attachments/assets/9bef04cd-6200-4d7e-a18a-2db067cb19d0" />
+
 
 
   -Descripcion del funcionamiento-
