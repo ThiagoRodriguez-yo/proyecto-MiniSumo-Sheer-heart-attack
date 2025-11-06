@@ -109,10 +109,10 @@ Características:
 - Valores: 3 resistencias de 1k y 3 resistencias de 2.2k
 
   -Capacitores-
-- Tipo de capacitores: Electrolitico y Marmol
+- Tipo de capacitores: Electrolitico y Ceramico
 - Cantidad: 2 capacitores Electroliticos y 4 capacitores de Marmol
 - Valores Electroliticos: 470uf
-- Valores Marmol: 2 de 0.1uf y 2 de 10nf
+- Valores Ceramico: 2 de 0.1uf y 2 de 10nf
 
   -Diseño del circuito-
 
